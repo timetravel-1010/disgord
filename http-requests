@@ -1,0 +1,10 @@
+Get bot commands:
+
+curl -X GET "https://discord.com/api/v10/applications/<APP_ID>/commands" \
+-H "Authorization: Bot <YOUR_DISCORD_BOT_TOKEN>"
+
+
+Delete a bot command:
+
+curl -X DELETE "https://discord.com/api/v10/applications/<APP_ID>/commands/<COMMAND_ID>" \
+-H "Authorization: Bot <YOUR_DISCORD_BOT_TOKEN>"
